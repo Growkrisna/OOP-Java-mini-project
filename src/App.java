@@ -21,7 +21,10 @@ public class App {
     }
 
     static void lihatCharacter() {
-
+        for (int i = 0; i < characters.size(); i++) {
+            System.out.println((i + 1) + ". " + characters.get(i).getName());
+            characters.get(i).showCharacter();
+        }
     }
     
     static void updateCharacter() {
@@ -34,6 +37,8 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         int pilihan;
+
+        lihatCharacter();
 
         do {
             System.out.println("=== MENU CHARACTER ===");
