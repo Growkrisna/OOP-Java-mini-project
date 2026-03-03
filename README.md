@@ -18,4 +18,6 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
 
-#Membuat eksperimen dengan oop membuat sebuah karakter game
+# Membuat eksperimen dengan oop membuat sebuah karakter game
+
+# Sejauh ini terlihat oke jika membuat sebuah CRUD
