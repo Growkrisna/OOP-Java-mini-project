@@ -1,5 +1,6 @@
 public class Character {
 
+    private int id;
     private String name;
     private int health;
     private int attackPower;
@@ -11,6 +12,9 @@ public class Character {
     }
 
     //Getter
+    public int getId(){
+        return id;
+    }
 
     public String getName() {
         return name;
@@ -39,10 +43,10 @@ public class Character {
     }
 
     public void showCharacter() {
+        System.out.println("id     : " + id);
         System.out.println("Nama   : " + name);
         System.out.println("HP     : " + health);
         System.out.println("Attack : " + attackPower);
         System.out.println("-----------------------");
     }
-
 }
