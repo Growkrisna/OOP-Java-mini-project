@@ -5,7 +5,8 @@ public class Character {
     private int health;
     private int attackPower;
 
-    public Character(String name, int health, int attackPower) {
+    public Character(int id, String name, int health, int attackPower) {
+        this.id = id;
         this.name = name;
         this.health = health;
         this.attackPower = attackPower;
